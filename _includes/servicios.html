@@ -1,0 +1,24 @@
+<section id="services" class="add-padding">
+
+	<div class="container">
+		
+		<h1 class="section-title big-text scrollimation fade-up">Mis Servicios</h1>
+		
+		<div class="row">
+
+			{% for servicio in site.data.servicios %}
+				<div class="col-sm-4 service-item color3 scrollimation scale-in">
+				
+					<div class="service-icon"><i class="{{ servicio.icon }}"></i></div>
+					
+					<h3>{{ servicio.titulo }}</h3>
+					
+					<p>{{ servicio.desc }}</p>
+					
+					
+				</div>
+			{% endfor %}
+		
+	</div>
+
+</section>

@@ -1,0 +1,74 @@
+<section id="portfolio" class="add-padding">
+
+	<div class="container">
+		
+		<h1 class="big-text text-center scrollimation fade-in">Mis trabajos</h1>
+		<br/>
+		<!--==== Portfolio Filters ====-->
+		<!--
+		<div id="filter-works">
+			<ul>
+				<li class="active scrollimation fade-right d1">
+					<a href="#" data-filter="*">Todos</a>
+				</li>
+				<li class="scrollimation fade-right">
+					<a href="#" data-filter=".identity">Identity</a>
+				</li>
+				<li class="scrollimation fade-left">
+					<a href="#" data-filter=".logo">Logo</a>
+				</li>
+				<li class="scrollimation fade-left d1">
+					<a href="#" data-filter=".illustration">Illustration</a>
+				</li>
+			</ul>
+		</div>
+		-->
+		<!--End portfolio filters -->
+		
+		<!--==== Project Preview ====-->
+		<div id="project-preview">
+		
+			<span class="close-preview">&times;</span>
+		
+			<div id="project-slider" class="flexslider"></div>
+			
+			<h1 id="project-title"></h1>
+		
+			<div id="project-content"></div>
+		
+		</div><!--Project Preview -->
+		
+	</div>
+
+	<div class="container masonry-wrapper">
+	
+		<div id="projects-container">
+
+			{% for post in site.posts %}
+			<article class="project-item illustration">
+				
+				<img class="img-responsive project-image" src="{{ post.details.covers.404 }}"  alt=""><!--Project thumb -->
+				
+				<div class="hover-mask">
+					<h2 class="project-title">{{ post.title }}</h2><!--Project Title -->
+					<p>{{ post.details.fields | join: ', ' }}</p><!--Project Subtitle -->
+				</div>
+				
+				<!--==== Project Preview HTML ====-->
+				
+				<div class="sr-only project-description" data-images="{{ post.details.covers.404 }}" >
+				
+					{{ post.content }}
+					<p class="text-center"><a class="btn btn-color1" href="{{ post.details.url }}" target="_blank"><i class="fa fa-arrow-right"></i>Ver en Behance</a></p>
+				
+				</div>
+				
+			</article>
+			{% endfor %}
+
+		</div><!-- End projects --> 
+		
+	</div><!-- End container --> 
+	
+
+</section>

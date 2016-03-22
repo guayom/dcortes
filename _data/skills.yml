@@ -1,0 +1,12 @@
+description: "Aquí puede ir un poco de explicación sobre tu especialidad"
+description-extended: "Y aquí un poco más de explicación"
+
+skills:
+ - title: Photoshop
+   percentage: 100
+ - title: Illustrator
+   percentage: 100
+ - title: Indesign
+   percentage: 80
+ - title: Fotografía
+   percentage: 80

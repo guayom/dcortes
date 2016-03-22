@@ -1,0 +1,11 @@
+- titulo: Identidad Corporativa
+  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo."
+  icon: fa fa-lightbulb-o
+
+- titulo: Diseño Web
+  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo."
+  icon: fa fa-desktop
+
+- titulo: Ilustración
+  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo."
+  icon: fa fa-pencil

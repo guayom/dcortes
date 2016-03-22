@@ -1,0 +1,36 @@
+<section id="skills" class="add-padding border-bottom-color2">
+
+	<div class="container">
+		
+		<div class="row">
+		
+			<div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
+			
+				<h1 class="big-text">Mis<br/>Habilidades</h1>
+				
+				<p class="lead">{{ site.data.skills.description }}</p>
+			
+				<p>{{ site.data.skills.description-extended }}</p>
+			
+			</div>
+		
+			<div class="col-sm-6 col-md-5 col-md-offset-1">
+			
+				<div class="skills-bars">
+				
+					{% for skill in site.data.skills.skills %}
+						<div class="skills-item skill{{ forloop.index}}">
+							<span class="percent" data-percent="{{ skill.percentage }}">{{ skill.percentage }}%</span>
+							<p>{{ skill.title }}</p>
+						</div>
+					{% endfor %}
+					
+				</div>
+			
+			</div>
+			
+		</div>
+		
+	</div>
+
+</section>
