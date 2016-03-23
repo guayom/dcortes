@@ -203,6 +203,8 @@ $(document).ready(function() {
 				pauseOnAction: false, 
 				pauseOnHover: true,
 				smoothHeight: false,
+				animateHeight: true,
+				smoothHeight: true,
 				start: function(){
 					$(window).trigger('resize');
 					$('#project-preview').animate({'opacity':1},300);

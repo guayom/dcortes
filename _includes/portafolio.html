@@ -11,13 +11,16 @@
 					<a href="#" data-filter="*">Todos</a>
 				</li>
 				<li class="scrollimation fade-right">
-					<a href="#" data-filter=".identity">Identity</a>
+					<a href="#" data-filter=".Branding">Branding</a>
 				</li>
 				<li class="scrollimation fade-left">
-					<a href="#" data-filter=".logo">Logo</a>
+					<a href="#" data-filter=".Graphic">Diseño Gráfico</a>
 				</li>
 				<li class="scrollimation fade-left d1">
-					<a href="#" data-filter=".illustration">Illustration</a>
+					<a href="#" data-filter=".Illustration">Ilustración</a>
+				</li>
+				<li class="scrollimation fade-left d1">
+					<a href="#" data-filter=".Web">Diseño Web</a>
 				</li>
 			</ul>
 		</div>
@@ -28,12 +31,15 @@
 		<div id="project-preview">
 		
 			<span class="close-preview">&times;</span>
-		
-			<div id="project-slider" class="flexslider"></div>
 			
-			<h1 id="project-title"></h1>
-		
-			<div id="project-content"></div>
+			<div class="col-xs-12 col-md-6">
+				<h1 id="project-title"></h1>
+				<div id="project-content"></div>
+			</div>
+
+			<div class="col-xs-12 col-md-6">
+				<div id="project-slider" class="flexslider"></div>
+			</div>
 		
 		</div><!--Project Preview -->
 		
@@ -44,7 +50,7 @@
 		<div id="projects-container">
 
 			{% for post in site.posts %}
-			<article class="project-item illustration">
+			<article class="project-item {{ post.details.fields | join: ' ' }}">
 				
 				<img class="img-responsive project-image" src="{{ post.details.covers.404 }}"  alt=""><!--Project thumb -->
 				
@@ -57,7 +63,7 @@
 				{% assign post_images = post.details.modules | map: 'src' %}
 				<div class="sr-only project-description" data-images="{{ post_images | join: ', ' }}" >
 					{{ post.content }}
-					<p class="text-center"><a class="btn btn-color1" href="{{ post.details.url }}" target="_blank"><i class="fa fa-arrow-right"></i>Ver en Behance</a></p>
+					<p><a class="btn btn-color1" href="{{ post.details.url }}" target="_blank"><i class="fa fa-arrow-right"></i>Ver en Behance</a></p>
 				</div>
 				
 			</article>

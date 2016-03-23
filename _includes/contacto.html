@@ -16,7 +16,7 @@
 		
 			<!--=== Contact Form ===-->
 
-			<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php" method="post" novalidate>
+			<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="https://formspree.io/guayo.mena@gmail.com" method="post" novalidate>
 				
 				<div class="form-group">
 				  <label class="control-label" for="contact-name">Nombre</label>
@@ -29,7 +29,7 @@
 				<div class="form-group">
 				  <label class="control-label" for="contact-mail">Email</label>
 				  <div class=" controls">
-					<input id="contact-mail" name="email" placeholder="Su email" class="form-control requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+					<input id="contact-mail" name="_replyto" placeholder="Su email" class="form-control requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
 					<i class="fa fa-envelope"></i>
 				  </div>
 				</div><!-- End email input -->
@@ -41,8 +41,11 @@
 						<i class="fa fa-comment"></i>
 					</div>
 				</div><!-- End textarea -->
+
+				<input type="hidden" name="_subject" value="Nuevo contacto desde la página" />
+				<input type="text" name="_gotcha" class="hidden" />
 				
-				<p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="enviando..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Enviar</button></p>
+				<p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="enviando..." data-ok-message="Mensaje Enviado"><i class="fa fa-paper-plane"></i>Enviar</button></p>
 				<input type="hidden" name="submitted" id="submitted" value="true" />
 				
 			</form><!-- End contact-form -->
