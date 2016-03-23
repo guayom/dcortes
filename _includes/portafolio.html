@@ -21,7 +21,7 @@
 				</li>
 			</ul>
 		</div>
-		-->
+		
 		<!--End portfolio filters -->
 		
 		<!--==== Project Preview ====-->
@@ -54,12 +54,10 @@
 				</div>
 				
 				<!--==== Project Preview HTML ====-->
-				
-				<div class="sr-only project-description" data-images="{{ post.details.covers.404 }}" >
-				
+				{% assign post_images = post.details.modules | map: 'src' %}
+				<div class="sr-only project-description" data-images="{{ post_images | join: ', ' }}" >
 					{{ post.content }}
 					<p class="text-center"><a class="btn btn-color1" href="{{ post.details.url }}" target="_blank"><i class="fa fa-arrow-right"></i>Ver en Behance</a></p>
-				
 				</div>
 				
 			</article>
