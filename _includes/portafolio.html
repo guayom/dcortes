@@ -1,7 +1,7 @@
 <section id="portfolio" class="add-padding">
 
 	<div class="container">
-		
+
 		<h1 class="big-text text-center scrollimation fade-in">Mis trabajos</h1>
 		<br/>
 		<!--==== Portfolio Filters ====-->
@@ -17,21 +17,21 @@
 					<a href="#" data-filter=".Graphic">Diseño Gráfico</a>
 				</li>
 				<li class="scrollimation fade-left d1">
-					<a href="#" data-filter=".Illustration">Ilustración</a>
+					<a href="#" data-filter=".Illustration">Print</a>
 				</li>
 				<li class="scrollimation fade-left d1">
 					<a href="#" data-filter=".Web">Diseño Web</a>
 				</li>
 			</ul>
 		</div>
-		
+
 		<!--End portfolio filters -->
-		
+
 		<!--==== Project Preview ====-->
 		<div id="project-preview">
-		
+
 			<span class="close-preview">&times;</span>
-			
+
 			<div class="col-xs-12 col-md-6">
 				<h1 id="project-title"></h1>
 				<div id="project-content"></div>
@@ -40,38 +40,38 @@
 			<div class="col-xs-12 col-md-6">
 				<div id="project-slider" class="flexslider"></div>
 			</div>
-		
+
 		</div><!--Project Preview -->
-		
+
 	</div>
 
 	<div class="container masonry-wrapper">
-	
+
 		<div id="projects-container">
 
 			{% for post in site.posts %}
 			<article class="project-item {{ post.details.fields | join: ' ' }}">
-				
+
 				<img class="img-responsive project-image" src="{{ post.details.covers.404 }}"  alt=""><!--Project thumb -->
-				
+
 				<div class="hover-mask">
 					<h2 class="project-title">{{ post.title }}</h2><!--Project Title -->
 					<p>{{ post.details.fields | join: ', ' }}</p><!--Project Subtitle -->
 				</div>
-				
+
 				<!--==== Project Preview HTML ====-->
 				{% assign post_images = post.details.modules | map: 'src' %}
 				<div class="sr-only project-description" data-images="{{ post_images | join: ', ' }}" >
 					{{ post.content }}
 					<p><a class="btn btn-color1" href="{{ post.details.url }}" target="_blank"><i class="fa fa-arrow-right"></i>Ver en Behance</a></p>
 				</div>
-				
+
 			</article>
 			{% endfor %}
 
-		</div><!-- End projects --> 
-		
-	</div><!-- End container --> 
-	
+		</div><!-- End projects -->
+
+	</div><!-- End container -->
+
 
 </section>
