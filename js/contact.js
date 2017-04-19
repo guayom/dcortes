@@ -35,7 +35,7 @@ $contactForm.submit(function(e) {
 	} else {
 		$('#contact-form button').html('<i class="fa fa-spinner fa-spin"></i>'+sendingMessage);
 		$.ajax({
-			url: '//formspree.io/infostampscr@gmail.com',
+			url: '//formspree.io/guayo.mena@gmail.com',
 			method: 'POST',
 			data: $(this).serialize(),
 			dataType: 'json'
