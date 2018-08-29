@@ -13,11 +13,11 @@ details:
   - Graphic Design
   - Web Design
   covers:
-    '404': https://mir-s3-cdn-cf.behance.net/projects/404/df5a7d29118419.55e38d84af8c2.jpg
-    '202': https://mir-s3-cdn-cf.behance.net/projects/202/df5a7d29118419.55e38d84af8c2.jpg
-    '230': https://mir-s3-cdn-cf.behance.net/projects/230/df5a7d29118419.55e38d84af8c2.jpg
-    '115': https://mir-s3-cdn-cf.behance.net/projects/115/df5a7d29118419.55e38d84af8c2.jpg
-    original: https://mir-s3-cdn-cf.behance.net/projects/original/df5a7d29118419.55e38d84af8c2.jpg
+    '404': https://mir-s3-cdn-cf.behance.net/projects/404/cd070a29118419.Y3JvcCwxMjAwLDkzOCwwLDA.jpg
+    '202': https://mir-s3-cdn-cf.behance.net/projects/202/cd070a29118419.Y3JvcCwxMjAwLDkzOCwwLDA.jpg
+    '230': https://mir-s3-cdn-cf.behance.net/projects/230/cd070a29118419.Y3JvcCwxMjAwLDkzOCwwLDA.jpg
+    '115': https://mir-s3-cdn-cf.behance.net/projects/115/cd070a29118419.Y3JvcCwxMjAwLDkzOCwwLDA.jpg
+    original: https://mir-s3-cdn-cf.behance.net/projects/original/cd070a29118419.Y3JvcCwxMjAwLDkzOCwwLDA.jpg
   mature_content: 0
   mature_access: allowed
   owners:
@@ -432,14 +432,13 @@ details:
     full_bleed: 0
     alignment: center
     caption_alignment: left
-    src: https://mir-s3-cdn-cf.behance.net/project_modules/disp/7d9a5f29118419.56e3779aa7673.jpg
+    src: https://mir-s3-cdn-cf.behance.net/project_modules/disp/5abd8129118419.55e38d5307128.jpg
     sizes:
-      disp: https://mir-s3-cdn-cf.behance.net/project_modules/disp/7d9a5f29118419.56e3779aa7673.jpg
-      max_1240: https://mir-s3-cdn-cf.behance.net/project_modules/hd/7d9a5f29118419.56e3779aa7673.jpg
-      max_1920: https://mir-s3-cdn-cf.behance.net/project_modules/fs/7d9a5f29118419.56e3779aa7673.jpg
-      max_1200: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7d9a5f29118419.56e3779aa7673.jpg
-      '1400': https://mir-s3-cdn-cf.behance.net/project_modules/1400/7d9a5f29118419.56e3779aa7673.jpg
-      original: https://mir-s3-cdn-cf.behance.net/project_modules/source/7d9a5f29118419.56e3779aa7673.jpg
+      disp: https://mir-s3-cdn-cf.behance.net/project_modules/disp/5abd8129118419.55e38d5307128.jpg
+      max_1240: https://mir-s3-cdn-cf.behance.net/project_modules/hd/5abd8129118419.55e38d5307128.jpg
+      max_1920: https://mir-s3-cdn-cf.behance.net/project_modules/fs/5abd8129118419.55e38d5307128.jpg
+      max_1200: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5abd8129118419.55e38d5307128.jpg
+      original: https://mir-s3-cdn-cf.behance.net/project_modules/source/5abd8129118419.55e38d5307128.jpg
     dimensions:
       disp:
         width: 600
