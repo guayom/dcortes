@@ -230,7 +230,7 @@ details:
         height: 1100
     width: 600
     height: 794
-  short_url: http://be.net/gallery/31370153/Illustration-Techniques
+  short_url: https://be.net/gallery/31370153/Illustration-Techniques
   copyright:
     license: cc by-nc-nd
     description: Attribution-NonCommercial-NoDerivs

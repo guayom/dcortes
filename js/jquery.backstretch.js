@@ -1,5 +1,5 @@
 /*! Backstretch - v2.0.3 - 2012-11-30
-* http://srobbin.com/jquery-plugins/backstretch/
+* https://srobbin.com/jquery-plugins/backstretch/
 * Copyright (c) 2012 Scott Robbin; Licensed MIT */
 
 ;(function ($, window, undefined) {
@@ -306,7 +306,7 @@
   /* SUPPORTS FIXED POSITION?
    *
    * Based on code from jQuery Mobile 1.1.0
-   * http://jquerymobile.com/
+   * https://jquerymobile.com/
    *
    * In a nutshell, we need to figure out if fixed positioning is supported.
    * Unfortunately, this is very difficult to do on iOS, and usually involves

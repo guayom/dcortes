@@ -11,7 +11,7 @@ email: infostampscr@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   El diseño, la creatividad y la creación de conceptos son nuestra pasión. Nos encanta tener nuevos retos y nuevos proyectos para trabajar, esperamos poder ayudarle a crear una mejor imagen para su marca.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://www.stampsstudio.com/" # the base hostname & protocol for your site
 telefono: +506 6070-0083
 
 # Build settings

@@ -195,7 +195,7 @@ details:
         height: 315
     width: 600
     height: 222
-  short_url: http://be.net/gallery/31370645/Facebook-Covers
+  short_url: https://be.net/gallery/31370645/Facebook-Covers
   copyright:
     license: cc by-nc-nd
     description: Attribution-NonCommercial-NoDerivs

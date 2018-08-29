@@ -421,7 +421,7 @@ details:
         height: 373
     width: 439
     height: 373
-  short_url: http://on.be.net/1Kc4g38
+  short_url: https://on.be.net/1Kc4g38
   copyright:
     license: cc by-nc
     description: Attribution-NonCommercial

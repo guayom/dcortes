@@ -170,7 +170,7 @@ details:
         height: 292
     width: 600
     height: 156
-  short_url: http://be.net/gallery/31370499/Theme-Screens-for-Dance-Works
+  short_url: https://be.net/gallery/31370499/Theme-Screens-for-Dance-Works
   copyright:
     license: cc by-nc-nd
     description: Attribution-NonCommercial-NoDerivs

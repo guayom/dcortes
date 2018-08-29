@@ -2,7 +2,7 @@
  * jQuery Masonry v2.1.07
  * A dynamic layout plugin for jQuery
  * The flip-side of CSS Floats
- * http://masonry.desandro.com
+ * https://masonry.desandro.com
  *
  * Licensed under the MIT license.
  * Copyright 2012 David DeSandro
@@ -394,7 +394,7 @@
   // ======================= imagesLoaded Plugin ===============================
   /*!
    * jQuery imagesLoaded plugin v1.1.0
-   * http://github.com/desandro/imagesloaded
+   * https://github.com/desandro/imagesloaded
    *
    * MIT License. by Paul Irish et al.
    */
@@ -440,7 +440,7 @@
     $images.bind( 'load.imagesLoaded error.imagesLoaded',  imgLoaded ).each( function() {
       // cached images don't fire load sometimes, so we reset src.
       var src = this.src;
-      // webkit hack from http://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
+      // webkit hack from https://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
       // data uri bypasses webkit log warning (thx doug jones)
       this.src = blank;
       this.src = src;

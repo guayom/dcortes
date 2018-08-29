@@ -90,7 +90,7 @@ details:
     original_width: 560
     original_height: 315
     width_unit: px
-  short_url: http://on.be.net/1i6LP9w
+  short_url: https://on.be.net/1i6LP9w
   copyright:
     license: cc by-nc
     description: Attribution-NonCommercial
